@@ -1,7 +1,7 @@
 body {
   scroll-behavior: smooth;
   background-color: #f3f1f0;
-  background-image: url(/pics/bac.png);
+  background-image: url(pics/bac.png);
 }
 /* ///////////////////////////////////// */
 /* NAVBAR */
@@ -41,7 +41,7 @@ body {
   background-color: #2f5268;
   color: #fff;
   padding: 9% 10% 6%;
-  background-image: url(/pics/tropical-green-leaves-.jpg);
+  background-image: url(pics/tropical-green-leaves-.jpg);
   background-size: cover;
   border-bottom-left-radius: 15%;
 }
@@ -170,7 +170,7 @@ body {
   background-color: #f3f1f0;
   color: #2f5268;
   padding: 2% 6% 5%;
-  background-image: url(/pics/bac.png);
+  background-image: url(pics/bac.png);
   background-size: cover;
 }
 
@@ -186,7 +186,7 @@ body {
   background-color: #2f5268;
   color: #fff;
   padding: 2% 10% 4%;
-  background-image: url(/pics/tropical-green-leaves-.jpg);
+  background-image: url(pics/tropical-green-leaves-.jpg);
   background-size: cover;
   border-top-right-radius: 20%;
   border-bottom-left-radius: 20%;
@@ -202,7 +202,7 @@ body {
   background-color: #f3f1f0;
   color: #2f5268;
   padding: 2% 10% 5%;
-  background-image: url(/pics/bac.png);
+  background-image: url(pics/bac.png);
   background-size: cover;
 }
 
@@ -273,7 +273,7 @@ body {
   background-color: #2f5268;
   color: #fff;
   padding: 2% 10% 4%;
-  background-image: url(/pics/tropical-green-leaves-.jpg);
+  background-image: url(pics/tropical-green-leaves-.jpg);
   background-size: cover;
   border-bottom-left-radius: 15%;
   border-top-right-radius: 15%;
@@ -302,7 +302,7 @@ body {
   background-color: #f3f1f0;
   color: #2f5268;
   padding: 2% 6% 4%;
-  background-image: url(/pics/bac.png);
+  background-image: url(pics/bac.png);
   background-size: cover;
   text-align: center;
 }
@@ -344,7 +344,7 @@ body {
   background-color: #2f5268;
   color: #fff;
   padding: 11% 8% 3%;
-  background-image: url(/pics/tropical-green-leaves-.jpg);
+  background-image: url(pics/tropical-green-leaves-.jpg);
   background-size: cover;
   border-bottom-left-radius: 15%;
   text-align: center;
@@ -365,7 +365,7 @@ body {
   background-color: #f3f1f0;
   color: #2f5268;
   padding: 6% 13% 3%;
-  background-image: url(/pics/bac.png);
+  background-image: url(pics/bac.png);
   background-size: cover;
 }
 
@@ -414,7 +414,7 @@ body {
 
 #about-page-action {
   background-color: #2f5268;
-  background-image: url(/pics/tropical-green-leaves-.jpg);
+  background-image: url(pics/tropical-green-leaves-.jpg);
   background-size: cover;
   text-align: center;
   padding: 3% 3%;
@@ -428,7 +428,7 @@ body {
   background-color: #2f5268;
   color: #fff;
   padding: 2% 10% 4%;
-  background-image: url(/pics/tropical-green-leaves-.jpg);
+  background-image: url(pics/tropical-green-leaves-.jpg);
   background-size: cover;
   border-top-right-radius: 30%;
   border-bottom-left-radius: 30%;
@@ -443,7 +443,7 @@ body {
   background-color: #2f5268;
   color: #fff;
   padding: 3% 8% 3%;
-  background-image: url(/pics/tropical-green-leaves-.jpg);
+  background-image: url(pics/tropical-green-leaves-.jpg);
   background-size: cover;
   border-top-right-radius: 15%;
   text-align: left;
