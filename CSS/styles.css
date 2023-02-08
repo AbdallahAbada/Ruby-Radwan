@@ -1,0 +1,565 @@
+body {
+  scroll-behavior: smooth;
+  background-color: #f3f1f0;
+  background-image: url(/pics/bac.png);
+}
+/* ///////////////////////////////////// */
+/* NAVBAR */
+#navbar {
+  background-color: #2f5268;
+}
+
+.navbar {
+  padding: 0% 10%;
+}
+
+.navbar-brand {
+  transform: scale(0.7);
+}
+
+.navbar-item {
+  /* padding: 0 100px; */
+  color: #fff;
+}
+
+.nav-link {
+  font-size: 1.1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.link:hover {
+  text-decoration: none;
+}
+
+.right {
+  color: #fff;
+}
+/* ///////////////////////////////////// */
+/* MAIN PAGE */
+
+#home {
+  background-color: #2f5268;
+  color: #fff;
+  padding: 9% 10% 6%;
+  background-image: url(/pics/tropical-green-leaves-.jpg);
+  background-size: cover;
+  border-bottom-left-radius: 15%;
+}
+
+#photo-title {
+  padding: 3% 1% 2%;
+}
+.title-one {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 5.5rem;
+}
+
+.title-two {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #c9a395;
+  padding: 3% 0 0 0;
+}
+
+.title-three {
+  font-family: "Times New Roman", Times, serif;
+  color: #c9a395;
+  padding: 0% 0 0 0;
+}
+
+.para {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 3% 0;
+}
+
+.btn {
+  background-color: #c9a395;
+  color: #fff;
+  padding: 1.2% 3%;
+}
+
+#size-btn {
+  padding: 1.2% 3.6%;
+  font-size: 1rem;
+}
+
+#ph-ruby:hover {
+  transform: scale(1.02);
+  cursor: pointer;
+  transition: ease-in 0.3s;
+}
+
+#ph-ruby {
+  cursor: pointer;
+  transition: ease-out 0.4s;
+}
+
+/* LINE */
+.line {
+  width: 100%;
+  border: 1px solid #c9a395;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 50%;
+  transform: translate(-50%);
+  margin-top: 5%;
+}
+
+/* SERVICES */
+#services {
+  padding: 2% 10%;
+  background-color: #f3f1f0;
+}
+
+.card {
+  background-color: #2f526800;
+  border: #c9a395 solid 1px;
+  align-items: center;
+  text-align: center;
+  padding: 15% 2% 5%;
+  align-content: center;
+  margin-top: 9%;
+  cursor: pointer;
+  transition: ease-out 0.4s;
+}
+
+.card:hover {
+  transform: scale(1.02);
+  cursor: pointer;
+  transition: ease-in 0.3s;
+}
+
+.title {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.serv-para {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.in-person,
+.online {
+  filter: invert(68%) sepia(21%) saturate(389%) hue-rotate(330deg)
+    brightness(97%) contrast(89%);
+}
+.title {
+  margin: 10% 0 4%;
+}
+
+.list {
+  margin-top: -3%;
+}
+
+.btn {
+  background-color: #c9a395;
+  color: #fff;
+  padding: 0.7% 2%;
+}
+
+/* .explore-btn {
+    padding: 1%;
+    margin: ;
+  } */
+
+.top {
+  margin-top: 5%;
+}
+
+/* ABOUT */
+#about {
+  background-color: #f3f1f0;
+  color: #2f5268;
+  padding: 2% 6% 5%;
+  background-image: url(/pics/bac.png);
+  background-size: cover;
+}
+
+.about-img {
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  margin: 15% 0;
+}
+
+/* CALL TO ACTION */
+#action {
+  background-color: #2f5268;
+  color: #fff;
+  padding: 2% 10% 4%;
+  background-image: url(/pics/tropical-green-leaves-.jpg);
+  background-size: cover;
+  border-top-right-radius: 20%;
+  border-bottom-left-radius: 20%;
+  text-align: center;
+}
+
+#action-btn {
+  margin-top: 5%;
+}
+
+/* CONTACT SECTION */
+#contact {
+  background-color: #f3f1f0;
+  color: #2f5268;
+  padding: 2% 10% 5%;
+  background-image: url(/pics/bac.png);
+  background-size: cover;
+}
+
+.contact-heading {
+  text-align: center;
+}
+
+.contact-btn {
+  text-align: center;
+}
+/* ////////////////////////////////// */
+/* TREATMENTS PAGE */
+/* HOW IT WORKS */
+#slider {
+  padding: 13% 18% 2%;
+  color: #2f5268;
+  text-align: center;
+}
+
+/* SLIDER TXT */
+.treatment-txt {
+  margin: 5% 0 6%;
+}
+
+/* ICONS */
+
+#anxiety {
+  transform: scale(120%);
+}
+
+#addiction {
+  transform: scale(115%);
+}
+
+#adhd {
+  transform: scale(130%);
+}
+
+#phobia {
+  transform: scale(120%);
+}
+
+#Self-harm {
+  transform: scale(120%);
+}
+
+#Low-confidence {
+  transform: scale(120%);
+}
+
+.border {
+  border: #c9a395 solid 5px;
+  padding: 2%;
+}
+
+.title-slider {
+  color: #c9a395;
+  margin-top: 4%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.slider-para {
+  color: #2f5268;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#i-do {
+  background-color: #2f5268;
+  color: #fff;
+  padding: 2% 10% 4%;
+  background-image: url(/pics/tropical-green-leaves-.jpg);
+  background-size: cover;
+  border-bottom-left-radius: 15%;
+  border-top-right-radius: 15%;
+  text-align: center;
+}
+
+.second-card {
+  background-color: #2f526800;
+  border: #c9a395 solid 1px;
+  align-items: center;
+  text-align: center;
+  padding: 15% 2% 5%;
+  align-content: center;
+  margin-top: 0%;
+  cursor: pointer;
+  transition: ease-out 0.4s;
+}
+
+.list {
+  margin: 0;
+  padding: 0 3%;
+  text-align: left;
+}
+
+#how {
+  background-color: #f3f1f0;
+  color: #2f5268;
+  padding: 2% 6% 4%;
+  background-image: url(/pics/bac.png);
+  background-size: cover;
+  text-align: center;
+}
+
+.paragh {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  margin: 5% 0% 2%;
+}
+
+.process {
+  margin-top: 5%;
+}
+
+.process-img {
+  margin: 0;
+  padding: 0;
+  filter: invert(32%) sepia(5%) saturate(3799%) hue-rotate(160deg)
+    brightness(90%) contrast(96%);
+}
+
+#first-list {
+  padding: 0% 0;
+  margin: 0;
+}
+
+.title-four {
+  margin-top: 5%;
+}
+
+#heart {
+  transform: scale(130%);
+}
+
+/* ////////////////////////////////// */
+/* ABOUTPAGE */
+
+#about-me {
+  background-color: #2f5268;
+  color: #fff;
+  padding: 11% 8% 3%;
+  background-image: url(/pics/tropical-green-leaves-.jpg);
+  background-size: cover;
+  border-bottom-left-radius: 15%;
+  text-align: center;
+}
+
+.about-title {
+  /* margin: 2% 0; */
+  text-align: left;
+  padding: 13% 0;
+}
+
+.about-img {
+  text-align: right;
+  /* align-items: center; */
+}
+
+#about-slide1 {
+  background-color: #f3f1f0;
+  color: #2f5268;
+  padding: 6% 13% 3%;
+  background-image: url(/pics/bac.png);
+  background-size: cover;
+}
+
+.about-image-one {
+  padding-left: -10px;
+}
+
+.about-image-one,
+.about-image-two,
+.about-image-three {
+  margin: 0;
+  position: absolute;
+  border-top-left-radius: 20%;
+  border-bottom-right-radius: 20%;
+  filter: drop-shadow(11px 6px 5px #5b5b5b9c);
+  border-bottom: #c9a395 6px solid;
+  /* top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
+}
+
+#about-title-one,
+#about-title-two,
+#about-title-three {
+  padding: 0% 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin-top: 2.5%;
+}
+
+.row1,
+.row2,
+.row3 {
+  margin: 6% 0 6%;
+}
+
+#about-btn {
+  padding: 0% 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#about-page-action {
+  background-color: #2f5268;
+  background-image: url(/pics/tropical-green-leaves-.jpg);
+  background-size: cover;
+  text-align: center;
+  padding: 3% 3%;
+  color: #fff;
+  margin-top: -3%;
+  margin-bottom: 3%;
+  border-radius: 15px;
+}
+
+#about-action {
+  background-color: #2f5268;
+  color: #fff;
+  padding: 2% 10% 4%;
+  background-image: url(/pics/tropical-green-leaves-.jpg);
+  background-size: cover;
+  border-top-right-radius: 30%;
+  border-bottom-left-radius: 30%;
+  text-align: center;
+  filter: drop-shadow(11px 6px 5px #5b5b5b9c);
+  border-bottom: #c9a395 6px solid;
+  border-right: #c9a395 3px solid;
+  margin-top: 15%;
+}
+
+#about-life-balance {
+  background-color: #2f5268;
+  color: #fff;
+  padding: 3% 8% 3%;
+  background-image: url(/pics/tropical-green-leaves-.jpg);
+  background-size: cover;
+  border-top-right-radius: 15%;
+  text-align: left;
+}
+
+#action-btn-space {
+  margin-top: 2%;
+}
+
+.action-space {
+  margin-bottom: 12%;
+}
+
+#image-scale {
+  animation: 3s linear infinite;
+}
+
+@keyframes animate {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+/* ////////////////////////////////// */
+/* FOOTER */
+
+#footer {
+  background-color: #343a40;
+  color: #fff;
+  padding: 3% 10% 2%;
+  /* background-image: url(/photos/tropical-green-leaves-.png); */
+  background-size: cover;
+}
+
+.title-footer {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  padding: 1% 1%;
+  /* margin-left: 50%;
+    transform: translate(-50%); */
+  margin-top: 3%;
+  /* font-weight: bold; */
+  margin-left: 5%;
+}
+
+.title-footer:hover {
+  color: #c9a395;
+}
+
+.logo-footer {
+  /* margin-top: 7%; */
+  margin-left: 55%;
+  transform: translate(-50%);
+  cursor: pointer;
+}
+
+#logo-footer:hover {
+  cursor: pointer;
+}
+
+.last-footer {
+  padding: 3% 1%;
+  font-weight: bold;
+}
+
+.address {
+  font-weight: lighter;
+  line-height: 28px;
+  padding-top: -1%;
+}
+
+.copylinks,
+.calllinks {
+  text-align: center;
+  margin-top: 1%;
+}
+
+.linked-in {
+  color: #fff;
+}
+
+.linked-in,
+.call {
+  color: #fff;
+}
+
+.call:hover {
+  text-decoration: none;
+  color: #343a40;
+}
+
+.linked-in:hover {
+  color: #343a40;
+  text-decoration: none;
+}
+
+#copy {
+  background-color: #c9a395;
+  font-family: "Times New Roman", Times, serif;
+  color: #343a40;
+}
+
+#call {
+  background-color: #c9a395;
+  font-family: "Times New Roman", Times, serif;
+  color: #343a40;
+}
+
+#copy:hover {
+  color: #fff;
+}
+
+.whatsapp:hover {
+  color: #343a40;
+  text-decoration: none;
+}
