@@ -36,7 +36,10 @@ body {
 }
 /* ///////////////////////////////////// */
 /* MAIN PAGE */
-
+/* Slider section */
+.carousel-inner {
+  width: 50%;
+}
 #home {
   background-color: #2f5268;
   color: #fff;
@@ -116,7 +119,7 @@ body {
   border: #c9a395 solid 1px;
   align-items: center;
   text-align: center;
-  padding: 15% 2% 5%;
+  padding: 4% 3%;
   align-content: center;
   margin-top: 9%;
   cursor: pointer;
