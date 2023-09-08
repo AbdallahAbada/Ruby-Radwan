@@ -1,14 +1,22 @@
-// // SELECT ELEMENTS
-// const contactLink = document.querySelector('.contact');
-// const contactSection = document.querySelector('#contact')
+document.addEventListener("DOMContentLoaded", function () {
+    const readMoreButtons = document.querySelectorAll(".read-more-button");
+    const closeOverlayButtons = document.querySelectorAll(".close-overlay-button");
 
-// // EVENT LISTNER
-// contactLink.addEventListener("click", (e) => {
-//     e.preventDefault()
-//     console.log(document)
-//     $(document).scrollTop(600)
-// })
+    readMoreButtons.forEach(function (button) {
+        button.addEventListener("click", function () {
+            const targetOverlayId = button.getAttribute("data-target");
+            const overlay = document.getElementById(targetOverlayId);
+            overlay.classList.add("show");
+            console.log('clicked')
+        });
+    });
 
-// $("#contact").click(function () {
-//     // any value you need
-// });
+    closeOverlayButtons.forEach(function (button) {
+        button.addEventListener("click", function () {
+            const targetOverlayId = button.getAttribute("data-target");
+            const overlay = document.getElementById(targetOverlayId);
+            overlay.classList.remove("show");
+            console.log('clicked')
+        });
+    });
+});
