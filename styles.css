@@ -600,9 +600,13 @@ body {
 #footer {
   background-color: #343a40;
   color: #fff;
-  padding: 3% 10% 2%;
+  padding: 4% 10% 1%;
   /* background-image: url(pics/tropical-green-leaves-.png); */
   background-size: cover;
+}
+
+.sm {
+  padding-top: 2rem;
 }
 
 .title-footer {
@@ -614,6 +618,7 @@ body {
   margin-top: 3%;
   /* font-weight: bold; */
   margin-left: 5%;
+  font-size: 1.1rem;
 }
 
 .title-footer:hover {
