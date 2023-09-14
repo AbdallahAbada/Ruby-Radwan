@@ -47,6 +47,7 @@ body {
   background-image: url(pics/tropical-green-leaves-.jpg);
   background-size: cover;
   border-bottom-left-radius: 15%;
+  margin-top: 2rem;
 }
 
 #photo-title {
@@ -54,13 +55,13 @@ body {
 }
 .title-one {
   font-family: "Times New Roman", Times, serif;
-  font-size: 5.5rem;
+  font-size: 4.8rem;
 }
 
 .title-two {
   font-family: Arial, Helvetica, sans-serif;
   color: #c9a395;
-  padding: 9% 0 0 0;
+  padding: 2% 0 0 0;
 }
 
 .title-three {
@@ -72,6 +73,7 @@ body {
 .para {
   font-family: Arial, Helvetica, sans-serif;
   padding: 3% 0;
+  font-size: 1.4rem;
 }
 
 .btn {
@@ -81,8 +83,14 @@ body {
 }
 
 #size-btn {
-  padding: 1.2% 3.6%;
-  font-size: 1rem;
+  /* padding: 1.2% 3.6%; */
+  font-size: 1.3rem;
+  text-align: center;
+  justify-content: center;
+}
+
+.read-more {
+  padding: 1.2% 3%;
 }
 
 #ph-ruby:hover {
@@ -105,7 +113,11 @@ body {
   text-align: center;
   margin-left: 50%;
   transform: translate(-50%);
-  margin-top: 5%;
+  /* margin-top: 5%; */
+}
+/* Middle Section */
+.what {
+  margin-top: 1.5rem;
 }
 
 /* SERVICES */
@@ -172,23 +184,27 @@ body {
 #about {
   background-color: #f3f1f0;
   color: #2f5268;
-  padding: 2% 6% 5%;
+  padding: 2% 2%;
   background-image: url(pics/bac.png);
   background-size: cover;
+}
+
+.home-line {
+  margin-bottom: rem;
 }
 
 .about-img {
   align-items: center;
   align-content: center;
   justify-content: center;
-  margin: 15% 0;
+  /* margin: 15% 0; */
 }
 
 /* CALL TO ACTION */
 #action {
   background-color: #2f5268;
   color: #fff;
-  padding: 2% 10% 4%;
+  padding: 0% 0% 2% 0;
   background-image: url(pics/tropical-green-leaves-.jpg);
   background-size: cover;
   border-top-right-radius: 20%;
@@ -219,6 +235,13 @@ body {
 /* ////////////////////////////////// */
 /* TREATMENTS PAGE */
 /* HOW IT WORKS */
+.slider-text {
+  margin-top: 4rem;
+}
+
+#how {
+  padding: 9% 10% 6%;
+}
 #slider {
   padding: 7% 1% 7% 1%;
   color: #2f5268;
@@ -498,10 +521,12 @@ body {
   margin-top: 2.5%;
 }
 
-.row1,
-.row2,
-.row3 {
-  margin: 6% 0 6%;
+.row1 {
+  margin: 1% 0 16%;
+}
+
+.row2 {
+  margin: 10% 0 12%;
 }
 
 #about-btn {
@@ -597,9 +622,9 @@ body {
 
 .logo-footer {
   /* margin-top: 7%; */
-  margin-left: 55%;
-  transform: translate(-50%);
-  cursor: pointer;
+  /* margin-left: 55%; */
+  /* transform: translate(-50%);
+  cursor: pointer; */
 }
 
 #logo-footer:hover {
@@ -661,4 +686,29 @@ body {
 .whatsapp:hover {
   color: #343a40;
   text-decoration: none;
+}
+
+/* /////////////////////////////////////// */
+/* Media Queries */
+/* @media only screen and (max-width: 1100px) {
+  #about-slide1 {
+    height: 1900px;
+  }
+} */
+@media (max-width: 768px) {
+  #about-slide1 {
+    margin-bottom: 15rem; /* Adjust the margin for smaller screens */
+    height: 550%;
+  }
+  /* .row2 {
+    margin-bottom: 15rem;
+  } */
+
+  .row1 {
+    margin: 1% 0 100%;
+  }
+
+  .row2 {
+    margin: 10% 0 50%;
+  }
 }

@@ -5,12 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
 
     <!-- Bootstrap CSS -->
     <link
@@ -20,12 +14,16 @@
       crossorigin="anonymous"
     />
     <link
-      rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
     />
+
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="styles.css" />
+
+    <!-- Font Awesome -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
@@ -33,7 +31,10 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
     <title>Ruby Radwan</title>
+
+    <!-- Favicon -->
     <link
       rel="icon"
       type="image/x-icon"
@@ -41,144 +42,223 @@
     />
   </head>
   <body>
-<!--Navbar-->
-    <nav id="navbar" class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark px-lg-4">
-        <div class="container">
-            <!-- Collapse button -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav"
-            aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <!-- Collapsible content -->
-            <div class="collapse navbar-collapse justify-content-center font-weight-bold px-lg-4" id="basicExampleNav">
-            <!-- Links -->
-            <ul class="navbar-nav">
+    <!-- Navbar -->
+    <nav
+      id="navbar"
+      class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark px-lg-4"
+    >
+      <div class="container">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#basicExampleNav"
+          aria-controls="basicExampleNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-center align-items-center font-weight-bold px-lg-4"
+          id="basicExampleNav"
+        >
+          <ul class="navbar-nav">
             <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              <a class="nav-link" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link left home" href="treatment.html">Treatments</a>
+              <a class="nav-link left home" href="treatment.html">Treatments</a>
             </li>
-            </ul>
-            <!-- Links --> 
-            <!-- Navbar brand -->
-            <a class="navbar-brand mr-0" href="index.html">
-              <img src="pics/ruby-radwan-logo.png" height="130" alt="">
-            </a>
-        
-            <!-- Links -->
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active right" href="about.html">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link right contact" href="index.html">Contact</a>
-              </li>
-            </ul>
-            <!-- Links -->
+          </ul>
+          <a class="navbar-brand mr-0" href="index.html">
+            <img
+              src="pics/ruby-radwan-logo.png"
+              height="130"
+              alt="ruby radwan logo"
+            />
+          </a>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link active right"
+                aria-current="page"
+                href="about.html"
+                >About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link right" href="index.html#contact">Contact</a>
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
+
     <section id="about-me">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 about-title">
-                    <h1 class="title-one">
-                        Ruby Radwan
-                    </h1>
-                    <h2 class="title-three">
-                        LICENSED HYPNO PSYCHOTHERAPIST
-                    </h2>
-                </div.treatment-txt >
-                <div class="col-md-6 about-image heading-img" id="ph-ruby">
-                    <img src="pics/ruby-about.png" height="100%" alt="">
-                </div>
-            </div>
+      <div class="container">
+        <div class="row row0">
+          <div class="col-md-6 about-title">
+            <h1 class="title-one">Ruby Radwan</h1>
+            <h2 class="title-three">LICENSED HYPNO PSYCHOTHERAPIST</h2>
+          </div>
+          <div class="col-md-6 about-image heading-img" id="ph-ruby">
+            <img
+              src="pics/ruby-about.png"
+              height="100%"
+              alt="ruby radwan"
+              class="img-fluid"
+            />
+          </div>
         </div>
+      </div>
     </section>
     <section id="about-slide1">
-        <div class="container">
-            <div class="row row1">
-                <div class="col-md-6" id="ph-ruby box">
-                    <img id="image-scale" class="about-image-one" height="100%" src="pics/Helping hand.png" alt="">
-                </div>
-                <!-- <div class="col-md-1"></div> -->
-                <div class="col-md-6" id="about-title-one">
-                    <h3 class="title-three">
-                      I am a client centred holistic therapist
-                    </h3>
-                    <h5 class="para">
-                        I understand that it is difficult to reach out for help. Daunting to share your problems and fears honestly with someone else. I have trained to be that person who can share your problems in order to help you discover your true inner strength. I am a non judgemental supportive therapist. I can help enable you to  carry on with confidence, to make the changes necessary to give you real hope, self value and courage to change whatever you feel needs changing in your life.
-                    </h5>
-                </div>
-            </div>
-            <div class="line"></div>
-            <div class="row row2">
-                <div class="col-md-7" id="about-title-two">
-                    <h3 class="title-three">
-                        I am an integrative therapist</h3>
-                    <h5 class="para">
-                      My interest in hypnotherapy began over 30 years ago when I studied psychology at university. I went on to train as a holistic health practitioner, specialising in aromatherapy and reflexology. An in-depth interest in healthy eating was sparked when I became a mother which led to a much more holistic approach to health and disease. During my hypnotherapy training, I covered a range of different theoretical approaches; this has placed many useful techniques at my fingertips so I am able to focus on your unique needs rather than fit you into a particular theoretical box. I believe in a holistic approach to life, health and wellbeing. I believe the mind and body and spirit are so intricately and elegantly linked that healing can happen when you take the very first step.
-                    </h5>
-                </div>
-                <div class="col-md-5" id="ph-ruby">
-                    <img id="image-scale" class="about-image-two" height="100%" src="pics/ruby-about-2.png" alt="">
-                </div>
-            </div>
-            <!-- <div class="line"></div> -->
-            <!-- I am a human being -->
-            <!-- <div class="row row3">
-                <div class="col-md-5" id="ph-ruby">
-                    <img id="image-scale" class="about-image-three" height="100%" src="pics/ruby-about-3.png" alt="">
-                </div>
-                <div class="col-md-7" id="about-title-three">
-                    <h3 class="title-three">
-                        I am a human being</h3>
-                    <h5 class="para">
-                        These responsibilities are based on the principle that I am a human being, worthy of respect, and that I am working to support my family through helping others to live better, happier and more fulfilling lives. By agreeing to work with me means taking certain responsibilities. These include treating me like a human being worthy of respect and an awareness that I have chosen work where I help others to live better, happier and more fulfilling lives.
-                    </h5>
-                </div>
-            </div> -->
-        </div>
-        <!-- <section id="about-action" class="action-space">
-          <div class="contai">
-            <div class="row">
-              <div class="col-lg">
-                <h5 class="title-one">
-                  Schedule a free consultation
-                </h5>
-                <h2 class="title-three">
-                  15-minute consultation to see if we’re a good fit.
-                </h2>
-                <a href="#contact">
-                  <button id="action-btn-space" class="btn">CONTACT ME</button>
-                </a>
-              </div>
-            </div>
+      <div class="container">
+        <div class="row row1">
+          <div class="col-md-6" id="about-title-one">
+            <h3 class="title-three">
+              I am a client-centered holistic therapist
+            </h3>
+            <h5 class="para">
+              I understand that it is difficult to reach out for help. Daunting
+              to share your problems and fears honestly with someone else. I
+              have trained to be that person who can share your problems in
+              order to help you discover your true inner strength. I am a
+              non-judgmental supportive therapist. I can help enable you to
+              carry on with confidence, to make the changes necessary to give
+              you real hope, self-value, and courage to change whatever you feel
+              needs changing in your life.
+            </h5>
           </div>
-        </section> -->
+          <div class="col-md-6" id="ph-ruby-box">
+            <img
+              id="image-scale"
+              class="about-image-one img-fluid"
+              src="pics/Helping hand.png"
+              alt="ruby radwan"
+            />
+          </div>
+        </div>
+        <div class="line"></div>
+        <div class="row row2">
+          <div class="col-md-6" id="about-title-one">
+            <h3 class="title-three">I am an integrative therapist</h3>
+            <h5 class="para">
+              My interest in hypnotherapy began over 30 years ago when I studied
+              psychology at university. I went on to train as a holistic health
+              practitioner, specializing in aromatherapy and reflexology. An
+              in-depth interest in healthy eating was sparked when I became a
+              mother, which led to a much more holistic approach to health and
+              disease. During my hypnotherapy training, I covered a range of
+              different theoretical approaches; this has placed many useful
+              techniques at my fingertips so I am able to focus on your unique
+              needs rather than fit you into a particular theoretical box. I
+              believe in a holistic approach to life, health, and wellbeing. I
+              believe the mind and body and spirit are so intricately and
+              elegantly linked that healing can happen when you take the very
+              first step.
+            </h5>
+          </div>
+          <div class="col-md-6" id="ph-ruby-box">
+            <img
+              id="image-scale"
+              class="about-image-one img-fluid"
+              src="pics/ruby-about-2.png"
+              alt="ruby radwan"
+            />
+          </div>
+        </div>
+      </div>
     </section>
+
+    <!-- <section id="about-slide1">
+      <div class="container">
+        <div class="row row1">
+          <div class="col-md-6" id="about-title-one">
+            <h3 class="title-three">
+              I am a client-centered holistic therapist
+            </h3>
+            <h5 class="para">
+              I understand that it is difficult to reach out for help. Daunting
+              to share your problems and fears honestly with someone else. I
+              have trained to be that person who can share your problems in
+              order to help you discover your true inner strength. I am a
+              non-judgmental supportive therapist. I can help enable you to
+              carry on with confidence, to make the changes necessary to give
+              you real hope, self-value, and courage to change whatever you feel
+              needs changing in your life.
+            </h5>
+          </div>
+          <div class="col-md-6" id="ph-ruby box">
+            <img
+              id="image-scale"
+              class="about-image-one img-fluid"
+              height="100%"
+              src="pics/Helping hand.png"
+              alt="ruby radwan"
+            />
+          </div>
+        </div>
+        <div class="line"></div>
+        <div class="row row2">
+          <div class="col-md-6" id="about-title-one">
+            <h3 class="title-three">I am an integrative therapist</h3>
+            <h5 class="para">
+              My interest in hypnotherapy began over 30 years ago when I studied
+              psychology at university. I went on to train as a holistic health
+              practitioner, specializing in aromatherapy and reflexology. An
+              in-depth interest in healthy eating was sparked when I became a
+              mother, which led to a much more holistic approach to health and
+              disease. During my hypnotherapy training, I covered a range of
+              different theoretical approaches; this has placed many useful
+              techniques at my fingertips so I am able to focus on your unique
+              needs rather than fit you into a particular theoretical box. I
+              believe in a holistic approach to life, health, and wellbeing. I
+              believe the mind and body and spirit are so intricately and
+              elegantly linked that healing can happen when you take the very
+              first step.
+            </h5>
+          </div>
+          <div class="col-md-6" id="ph-ruby box">
+            <img
+              id="image-scale"
+              class="about-image-one img-fluid"
+              src="pics/ruby-about-2.png"
+              alt="ruby radwan"
+            />
+          </div>
+        </div>
+      </div>
+    </section> -->
+
     <section id="about-life-balance" class="demo-wrap">
       <div class="container demo-content">
         <div class="row">
-          <div class="col-lg-6 col-md-12" id="ph-ruby">
-            <!-- <img src="/photos/female-legs-sneakers-rail-railway.jpg" height="15%" alt=""> -->
-            <img class="about-img" src="pics/balance-life-girl.png" alt="Ruby Radwan">
+          <div class="col-lg-6" id="ph-ruby">
+            <img
+              class="about-img img-fluid"
+              src="pics/balance-life-girl.png"
+              alt="Ruby Radwan"
+            />
           </div>
-          <div class="col-lg-6 col-md-12" id="photo-title">
-            <h4 class="title-two">
-              MY MISSION
-            </h4>
-            <h5 class="title-one">
-              Finding Life Balance
-            </h5>
+          <div class="col-lg-6" id="photo-title">
+            <h4 class="title-two">MY MISSION</h4>
+            <h5 class="title-one">Finding Life Balance</h5>
             <h2 class="title-three">
-              Balance is not a destination, it is a constant journey. 
+              Balance is not a destination, it is a constant journey.
             </h2>
             <p class="para">
-              When working to achieve perfection in life, we often set unrealistic and impossible expectations, setting ourselves up for disappointment and a sense of failure.
-              By focusing on yourself and accepting the good in the present, I can help you change your mentality
-              from disappointment with the impossible to acceptance and joy in real life by creating a true sense of being good enough. Because only when we stop setting outselves unrealistic expectations, and instead accept ourselves for who we are and see the good in our present selves, will we be able to achieve true balance in our lives.
-               
+              When working to achieve perfection in life, we often set
+              unrealistic and impossible expectations, setting ourselves up for
+              disappointment and a sense of failure. By focusing on yourself and
+              accepting the good in the present, I can help you change your
+              mentality from disappointment with the impossible to acceptance
+              and joy in real life by creating a true sense of being good
+              enough. Because only when we stop setting ourselves unrealistic
+              expectations, and instead accept ourselves for who we are and see
+              the good in our present selves, will we be able to achieve true
+              balance in our lives.
             </p>
             <a href="contact.html">
               <button id="size-btn" class="btn">CONTACT ME</button>
@@ -187,43 +267,39 @@
         </div>
       </div>
     </section>
-    
-    
+
     <section id="footer">
       <div class="container">
         <div class="row">
-          <div class="col-lg-3">
-            <a class="link" href="index.html">
-              <h6 class="title-footer">HOME</h6>
-            </a>
-            <a class="link" href="treatment.html">
-              <h6 class="title-footer">TREATMENTS</h6>
-            </a>
-            <a class="link" href="about.html">
-              <h6 class="title-footer">ABOUT</h6>
-            </a>
-            <a class="link" href="index.html#contact">
-              <h6 class="title-footer">CONTACT</h6>
-            </a>
+          <div class="col-lg-3 text-center text-lg-left">
+            <a class="link" href="#home"><h6 class="title-footer">HOME</h6></a>
+            <a class="link" href="treatment.html"
+              ><h6 class="title-footer">TREATMENTS</h6></a
+            >
+            <a class="link" href="about.html"
+              ><h6 class="title-footer">ABOUT</h6></a
+            >
+            <a class="link" href="#contact"
+              ><h6 class="title-footer">CONTACT</h6></a
+            >
           </div>
-          <div class="col-lg-3">
+          <div class="col-lg-3 text-center text-lg-left">
             <h6 class="title-footer">TWITTER</h6>
             <h6 class="title-footer">LINKED-IN</h6>
             <a
               class="whatsapp"
               href="https://wa.me/+447812005629"
               target="_blank"
+              ><h6 class="title-footer">WHATSAPP</h6></a
             >
-              <h6 class="title-footer">WHATSAPP</h6>
-            </a>
             <h6 class="title-footer">INSTAGRAM</h6>
           </div>
-          <div class="col-lg-3">
+          <div class="col-lg-3 text-center text-lg-left">
             <h6 class="title-footer">+44 7812005629</h6>
             <h6 class="title-footer">INFO@RUBY.COM</h6>
             <h6 class="title-footer address">WILLOWBROOK FARM OXFORD UK</h6>
           </div>
-          <div class="col-lg-3">
+          <div class="col-lg-3 text-center">
             <a href="#home">
               <img
                 class="logo-footer"
@@ -236,6 +312,7 @@
         </div>
       </div>
     </section>
+
     <section id="copy">
       <div class="container">
         <div class="row">
@@ -246,8 +323,7 @@
                 class="linked-in"
                 href="https://www.linkedin.com/in/abdallahabada/"
                 target="_blank"
-              >
-                Abdallah Abada</a
+                >Abdallah Abada</a
               >
               All Rights Reserved.
             </p>
@@ -255,6 +331,7 @@
         </div>
       </div>
     </section>
+
     <!-- JavaScript -->
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
@@ -266,13 +343,11 @@
       integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
       crossorigin="anonymous"
     ></script>
-
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
-
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
       integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"

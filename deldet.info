@@ -1,0 +1,108 @@
+// online session and offline
+<section id="action">
+  <div class="row top">
+    <div class="col-lg">
+      <h4 class="title-two">WHAT I DO</h4>
+      <h5 class="title-one">Support & Guide</h5>
+      <h2 class="title-three">EXPERIENCE HYPNO-PSYCHOTHERAPY</h2>
+    </div>
+  </div>
+
+  <div class="row carosel-container">
+    <div class="col-lg-6 col-md-6">
+      <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="pics/depressed-home copy.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="title-one">Suffering with anxiety</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="pics/young-adult-home copy.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="title-one">Getting out of control</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="pics/young-depressed-adult-home copy.jpg" class="d-block w-100 dark" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="title-one">Lost your self-confidence</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="pics/dult-home.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="title-one">Feeling lost in the wilderness</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="action">
+        <p class="para">
+          Together, we will work on overcoming challenges, managing stress, breaking unwanted habits, and uncovering inner strengths to facilitate positive personal transformations.
+        </p>
+        <div class="row list">
+          <div class="col-sm-6">
+            <ul>
+              <li>Addiction</li>
+              <li>Anxiety</li>
+              <li>ADHD</li>
+              <li>Depression</li>
+            </ul>
+          </div>
+          <div class="col-sm-6">
+            <ul>
+              <li>Family</li>
+              <li>Stress</li>
+              <li>Infertility</li>
+              <li>Depression</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg col-md-12">
+      <!-- Consider adding content for the right column here -->
+      <!-- Example: <div class="services_card"></div> -->
+      <a href="services.html">
+        <button id="size-btn" class="btn">EXPLORE MORE</button>
+      </a>
+    </div>
+  </div>
+</section>
+
+
+
+//////////////////////////////////////
+        <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="pics/depressed-home copy.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5 class="title-one">Suffering with anxiety</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="pics/young-adult-home copy.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5 class="title-one">Getting out of control</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="pics/young-depressed-adult-home copy.jpg" class="d-block w-100 dark" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5 class="title-one">Lost your self-confidence</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="pics/dult-home.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5 class="title-one">Feeling lost in the wilderness</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+  
