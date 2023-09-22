@@ -328,19 +328,24 @@ body {
 } */
 
 /* Styles for the overlay */
+.div.overlay-content {
+  width: 80%;
+}
 .overlay {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #f3f1f0;
+  background-color: rgba(0, 0, 0, 0.7);
   display: none;
-  justify-content: center;
+  justify-content: left;
   align-items: center; /* Vertically center content */
-  align-items: center;
   z-index: 999;
   opacity: 0.92;
+  padding: 5px;
+  overflow-y: auto; /* Make it scrollable */
+  height: fit-content;
 }
 
 .overlay.show {
@@ -349,29 +354,73 @@ body {
 
 .overlay-content {
   /* background-color: #fff; */
-  /* margin-top: 8rem; */
-  padding: 40px;
-  width: 50%;
+  /* margin-top: 30rem; */
+  /* padding-top: 10rem; */
+  /* padding: 0 10px; */
+  /* width: 50%; */
+  color: #2f5268;
+  text-align: left;
+  /* Limit the width of the overlay content */
+  /* width: 80%; */
   border-radius: 15px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); */
   text-align: center;
   color: #2f5268;
-  text-align: center;
-  max-width: 80%; /* Limit the width of the overlay content */
+  max-width: 95%;
+  padding: 3rem 2rem;
+  max-height: 80vh;
+}
+
+/* Media query for screens with a maximum width of 768px */
+@media (min-width: 768px) {
+  .overlay-content {
+    /* Adjust styles for smaller screens */
+    width: 90%; /* Adjust the width as needed */
+    max-width: 90%; /* Limit the maximum width */
+    padding: 20px; /* Adjust padding as needed */
+    margin-top: 10rem;
+    padding-top: 5rem;
+  }
+}
+
+@media (max-width: 568px) {
+  .overlay-content {
+    margin-top: 10rem;
+    padding-top: 5rem;
+  }
+}
+
+/* Default styles for overlay content */
+
+/* Media query for screens with a maximum width of 768px */
+@media (max-width: 768px) {
+  .overlay-content {
+    /* Adjust margin-top for smaller screens */
+    margin-top: 5%; /* Adjust the margin-top for smaller screens */
+  }
+}
+
+/* Media query for screens with a maximum width of 480px */
+@media (max-width: 480px) {
+  .overlay-content {
+    /* Further adjust margin-top for even smaller screens */
+    margin-top: 3%; /* Adjust the margin-top for very small screens */
+  }
 }
 
 .dis {
-  margin: 5% 0;
+  margin: 3% 0;
+  text-align: left;
 }
 
 .close-overlay-button {
   background-color: #c9a395;
   color: #fff;
   border: none;
-  padding: 10px 20px;
+  /* padding: 10px 20px; */
   font-size: 16px;
   cursor: pointer;
-  margin-top: 10px;
+  margin-bottom: 20px;
   border-radius: 5px;
 }
 
@@ -460,7 +509,7 @@ body {
 }
 
 /* ////////////////////////////////// */
-/* ABOUTPAGE */
+/* ABOUT PAGE */
 
 #about-me {
   background-color: #2f5268;
@@ -597,6 +646,23 @@ body {
 /* ////////////////////////////////// */
 /* FOOTER */
 
+/* design the social media links */
+/* Remove text decoration and set color for social media links */
+.title-footer a {
+  text-decoration: none; /* Remove underlines */
+  color: #fff; /* Set your preferred color */
+}
+
+/* Style visited links if needed */
+/* .title-footer a:visited {
+  color: #666; 
+} */
+
+/* Style links on hover if needed */
+.title-footer a:hover {
+  text-decoration: underline; /* Add underlines on hover if desired */
+}
+
 #footer {
   background-color: #343a40;
   color: #fff;
@@ -636,6 +702,566 @@ body {
   cursor: pointer;
 }
 
+/* General Styles */
+body {
+  scroll-behavior: smooth;
+  background-color: #f3f1f0;
+  background-image: url(pics/bac.png);
+}
+
+/* Navbar Styles */
+#navbar {
+  background-color: #2f5268;
+}
+
+.navbar {
+  padding: 0% 10%;
+}
+
+.navbar-brand {
+  transform: scale(0.7);
+}
+
+.navbar-item {
+  color: #fff;
+}
+
+.nav-link {
+  font-size: 1.1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.link:hover {
+  text-decoration: none;
+}
+
+.right {
+  color: #fff;
+}
+
+/* Main Page Styles */
+/* Slider section */
+.carousel-inner {
+  width: 50%;
+}
+
+#home {
+  background-color: #2f5268;
+  color: #fff;
+  padding: 9% 10% 6%;
+  background-image: url(pics/tropical-green-leaves-.jpg);
+  background-size: cover;
+  border-bottom-left-radius: 15%;
+  margin-top: 2rem;
+}
+
+#photo-title {
+  padding: 3% 1% 2%;
+}
+
+.title-one {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 4.8rem;
+}
+
+.title-two {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #c9a395;
+  padding: 2% 0 0 0;
+}
+
+.title-three {
+  font-family: "Times New Roman", Times, serif;
+  color: #c9a395;
+  padding: 0% 0 0 0;
+}
+
+.para {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 3% 0;
+  font-size: 1.4rem;
+}
+
+.btn {
+  background-color: #c9a395;
+  color: #fff;
+  padding: 1.2% 3%;
+}
+
+#size-btn {
+  font-size: 1.3rem;
+  text-align: center;
+  justify-content: center;
+}
+
+.read-more {
+  padding: 1.2% 3%;
+}
+
+#ph-ruby:hover {
+  transform: scale(1.02);
+  cursor: pointer;
+  transition: ease-in 0.3s;
+}
+
+#ph-ruby {
+  cursor: pointer;
+  transition: ease-out 0.4s;
+}
+
+/* Line Styles */
+.line {
+  width: 100%;
+  border: 1px solid #c9a395;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 50%;
+  transform: translate(-50%);
+}
+
+/* Middle Section Styles */
+.what {
+  margin-top: 1.5rem;
+}
+
+/* Services Styles */
+#services {
+  padding: 2% 10%;
+  background-color: #f3f1f0;
+}
+
+.card {
+  background-color: #2f526800;
+  border: #c9a395 solid 1px;
+  align-items: center;
+  text-align: center;
+  padding: 4% 3%;
+  align-content: center;
+  margin-top: 9%;
+  cursor: pointer;
+  transition: ease-out 0.4s;
+}
+
+.title {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.serv-para {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.in-person,
+.online {
+  filter: invert(68%) sepia(21%) saturate(389%) hue-rotate(330deg)
+    brightness(97%) contrast(89%);
+}
+
+.list {
+  margin-top: -3%;
+}
+
+.btn {
+  background-color: #c9a395;
+  color: #fff;
+  padding: 0.7% 2%;
+}
+
+.top {
+  margin-top: 5%;
+}
+
+/* About Page Styles */
+#about {
+  background-color: #f3f1f0;
+  color: #2f5268;
+  padding: 2% 2%;
+  background-image: url(pics/bac.png);
+  background-size: cover;
+}
+
+.home-line {
+  margin-bottom: rem;
+}
+
+.about-img {
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+/* Call to Action Styles */
+#action {
+  background-color: #2f5268;
+  color: #fff;
+  padding: 0% 0% 2% 0;
+  background-image: url(pics/tropical-green-leaves-.jpg);
+  background-size: cover;
+  border-top-right-radius: 20%;
+  border-bottom-left-radius: 20%;
+  text-align: center;
+}
+
+#action-btn {
+  margin-top: 5%;
+}
+
+/* Contact Section Styles */
+#contact {
+  background-color: #f3f1f0;
+  color: #2f5268;
+  padding: 2% 10% 5%;
+  background-image: url(pics/bac.png);
+  background-size: cover;
+}
+
+.contact-heading {
+  text-align: center;
+}
+
+.contact-btn {
+  text-align: center;
+}
+
+/* Treatments Page Styles */
+/* How It Works Styles */
+.slider-text {
+  margin-top: 4rem;
+}
+
+#how {
+  padding: 9% 10% 6%;
+}
+
+#slider {
+  padding: 7% 1% 7% 1%;
+  color: #2f5268;
+  text-align: center;
+}
+
+.link {
+  color: #c9a395;
+  font-size: 1.5rem;
+}
+
+/* Service Card Styles */
+.service-card {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+.service-card h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.service-card p {
+  font-size: 16px;
+  color: #333;
+}
+
+.read-more-button {
+  background-color: #c9a395;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.read-more-button:hover {
+  color: #333;
+}
+
+/* Overlay Styles */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #f3f1f0;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+  z-index: 999;
+  opacity: 0.92;
+}
+
+.overlay.show {
+  display: flex;
+}
+
+.dis {
+  margin: 5% 0;
+}
+
+.close-overlay-button {
+  background-color: #c9a395;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.border {
+  border: #c9a395 solid 5px;
+  padding: 2%;
+}
+
+.title-slider {
+  color: #c9a395;
+  margin-top: 4%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.slider-para {
+  color: #2f5268;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#i-do {
+  background-color: #2f5268;
+  color: #fff;
+  padding: 2% 10% 4%;
+  background-image: url(pics/tropical-green-leaves-.jpg);
+  background-size: cover;
+  border-bottom-left-radius: 15%;
+  border-top-right-radius: 15%;
+  text-align: center;
+}
+
+.second-card {
+  background-color: #2f526800;
+  border: #c9a395 solid 1px;
+  align-items: center;
+  text-align: center;
+  padding: 15% 2% 5%;
+  align-content: center;
+  margin-top: 0%;
+  cursor: pointer;
+  transition: ease-out 0.4s;
+}
+
+.list {
+  margin: 0;
+  padding: 0 3%;
+  text-align: left;
+}
+
+#how {
+  background-color: #f3f1f0;
+  color: #2f5268;
+  padding: 2% 6% 4%;
+  background-image: url(pics/bac.png);
+  background-size: cover;
+  text-align: center;
+}
+
+.paragh {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  margin: 5% 0% 2%;
+}
+
+.process {
+  margin-top: 5%;
+}
+
+.process-img {
+  margin: 0;
+  padding: 0;
+  filter: invert(32%) sepia(5%) saturate(3799%) hue-rotate(160deg)
+    brightness(90%) contrast(96%);
+}
+
+#first-list {
+  padding: 0% 0;
+  margin: 0;
+}
+
+.title-four {
+  margin-top: 5%;
+}
+
+#heart {
+  transform: scale(130%);
+}
+
+/* About Page Styles */
+#about-me {
+  background-color: #2f5268;
+  color: #fff;
+  padding: 11% 8% 3%;
+  background-image: url(pics/tropical-green-leaves-.jpg);
+  background-size: cover;
+  border-bottom-left-radius: 15%;
+  text-align: center;
+}
+
+.about-title {
+  text-align: left;
+  padding: 13% 0;
+}
+
+.about-img {
+  text-align: right;
+}
+
+#about-slide1 {
+  background-color: #f3f1f0;
+  color: #2f5268;
+  padding: 6% 13% 3%;
+  background-image: url(pics/bac.png);
+  background-size: cover;
+}
+
+.about-image-one {
+  padding-left: -10px;
+}
+
+.about-image-one,
+.about-image-two,
+.about-image-three {
+  margin: 0;
+  position: absolute;
+  border-top-left-radius: 20%;
+  border-bottom-right-radius: 20%;
+  filter: drop-shadow(11px 6px 5px #5b5b5b9c);
+  border-bottom: #c9a395 6px solid;
+}
+
+#about-title-one,
+#about-title-two,
+#about-title-three {
+  padding: 0% 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin-top: 2.5%;
+}
+
+.row1 {
+  margin: 1% 0 16%;
+}
+
+.row2 {
+  margin: 10% 0 12%;
+}
+
+#about-btn {
+  padding: 0% 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#about-page-action {
+  background-color: #2f5268;
+  background-image: url(pics/tropical-green-leaves-.jpg);
+  background-size: cover;
+  text-align: center;
+  padding: 3% 3%;
+  color: #fff;
+  margin-top: -3%;
+  margin-bottom: 3%;
+  border-radius: 15px;
+}
+
+#about-action {
+  background-color: #2f5268;
+  color: #fff;
+  padding: 2% 10% 4%;
+  background-image: url(pics/tropical-green-leaves-.jpg);
+  background-size: cover;
+  border-top-right-radius: 30%;
+  border-bottom-left-radius: 30%;
+  text-align: center;
+  filter: drop-shadow(11px 6px 5px #5b5b5b9c);
+  border-bottom: #c9a395 6px solid;
+  border-right: #c9a395 3px solid;
+  margin-top: 15%;
+}
+
+#about-life-balance {
+  background-color: #2f5268;
+  color: #fff;
+  padding: 3% 8% 3%;
+  background-image: url(pics/tropical-green-leaves-.jpg);
+  background-size: cover;
+  border-top-right-radius: 15%;
+  text-align: left;
+}
+
+#action-btn-space {
+  margin-top: 2%;
+}
+
+.action-space {
+  margin-bottom: 12%;
+}
+
+#image-scale {
+  animation: 3s linear infinite;
+}
+
+@keyframes animate {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+/* Footer Styles */
+/* Social Media Links Styles */
+.title-footer a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.title-footer a:hover {
+  text-decoration: underline;
+}
+
+#footer {
+  background-color: #343a40;
+  color: #fff;
+  padding: 4% 10% 1%;
+}
+
+.sm {
+  padding-top: 2rem;
+}
+
+.title-footer {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  padding: 1% 1%;
+  margin-top: 3%;
+  margin-left: 5%;
+  font-size: 1.1rem;
+}
+
+.title-footer:hover {
+  color: #c9a395;
+}
+
+.logo-footer:hover {
+  cursor: pointer;
+}
+
 .last-footer {
   padding: 3% 1%;
   font-weight: bold;
@@ -645,6 +1271,9 @@ body {
   font-weight: lighter;
   line-height: 28px;
   padding-top: -1%;
+}
+
+.email {
 }
 
 .copylinks,
@@ -693,21 +1322,12 @@ body {
   text-decoration: none;
 }
 
-/* /////////////////////////////////////// */
 /* Media Queries */
-/* @media only screen and (max-width: 1100px) {
-  #about-slide1 {
-    height: 1900px;
-  }
-} */
 @media (max-width: 768px) {
   #about-slide1 {
-    margin-bottom: 15rem; /* Adjust the margin for smaller screens */
+    margin-bottom: 15rem;
     height: 550%;
   }
-  /* .row2 {
-    margin-bottom: 15rem;
-  } */
 
   .row1 {
     margin: 1% 0 100%;
@@ -716,4 +1336,78 @@ body {
   .row2 {
     margin: 10% 0 50%;
   }
+}
+
+/* Media quaries for different screen sizes for home page */
+
+/* Extra small devices (phones, less than 576px) */
+@media (max-width: 575.98px) {
+  /* Add your styles here for extra small devices */
+  #photo-title {
+    text-align: center;
+  }
+  #what-I-do {
+    text-align: center;
+    /* padding: 4rem 1rem;
+    margin: 2rem 1rem; */
+  }
+  #action {
+    padding: 0.3rem 1rem 2rem 2rem;
+  }
+
+  .about-title {
+    text-align: center;
+  }
+
+  #photo-title {
+    text-align: center;
+  }
+  .collapse {
+    height: 55vh;
+  }
+}
+
+/* Small devices (phones, 576px and up) */
+@media (min-width: 576px) {
+  /* Add your styles here for small devices */
+  #photo-title {
+    /* text-align: center; */
+  }
+  #what-I-do {
+    text-align: center;
+    /* padding: 4rem 1rem;
+    margin: 2rem 1rem; */
+  }
+  #action {
+    padding: 0.2rem 1rem 3rem 2rem;
+  }
+  .action {
+    text-align: center;
+  }
+
+  .nav-link {
+    /* text-align: left; */
+  }
+
+  .navbar-brand {
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    padding-left: -2rem;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  /* Add your styles here for medium devices */
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  /* Add your styles here for large devices */
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  /* Add your styles here for extra large devices */
 }
