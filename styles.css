@@ -1365,6 +1365,10 @@ body {
   .collapse {
     height: 55vh;
   }
+
+  .mobile-size {
+    font-size: 3rem;
+  }
 }
 
 /* Small devices (phones, 576px and up) */
