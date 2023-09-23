@@ -6,8 +6,12 @@ document.addEventListener("DOMContentLoaded", function () {
         button.addEventListener("click", function () {
             const targetOverlayId = button.getAttribute("data-target");
             const overlay = document.getElementById(targetOverlayId);
-            overlay.classList.add("show");
-            console.log('clicked')
+            if (overlay) {
+                overlay.classList.add("show");
+                console.log('Read more clicked');
+            } else {
+                console.error('Overlay not found');
+            }
         });
     });
 
@@ -15,8 +19,12 @@ document.addEventListener("DOMContentLoaded", function () {
         button.addEventListener("click", function () {
             const targetOverlayId = button.getAttribute("data-target");
             const overlay = document.getElementById(targetOverlayId);
-            overlay.classList.remove("show");
-            console.log('clicked')
+            if (overlay) {
+                overlay.classList.remove("show");
+                console.log('Close overlay clicked');
+            } else {
+                console.error('Overlay not found');
+            }
         });
     });
 });
