@@ -809,6 +809,17 @@ body {
   transition: ease-out 0.4s;
 }
 
+.hero-photo {
+  justify-content: center;
+  align-items: center;
+  padding-left: 5rem;
+}
+
+.name-job {
+  justify-content: center;
+  text-align: center;
+}
+
 /* Line Styles */
 .line {
   width: 100%;
