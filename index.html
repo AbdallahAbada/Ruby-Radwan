@@ -1,10 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+  <!-- Header -->
   <head>
     <meta charset="utf-8" />
     <meta
       name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
+    <meta
+      name="description"
+      content="Meet Ruby Radwan, a compassionate client-centered holistic therapist with over 30 years of experience. Ruby provides non-judgmental support, empowering clients to uncover their inner strength and make transformative changes in their lives. As an integrative therapist, Ruby's holistic perspective combines psychology, aromatherapy, reflexology, and hypnotherapy to address your unique needs and promote healing of mind, body, and spirit. Take the crucial first step towards hope, self-worth, and lasting change with Ruby Radwan."
+    />
+    <meta name="HandheldFriendly" content="true" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="keywords"
+      content="Ruby Radwan, holistic therapist, integrative therapist, hypnotherapy, holistic health, mind-body-spirit, self-worth"
     />
     <title>Ruby Radwan</title>
     <link
@@ -31,6 +43,7 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="styles.css" />
   </head>
+  <!-- Body -->
   <body>
     <!-- Navbar -->
     <nav
@@ -77,7 +90,6 @@
         </div>
       </div>
     </nav>
-
     <!-- MAIN PAGE -->
     <section id="home" class="demo-wrap">
       <div class="container demo-content">
@@ -99,21 +111,22 @@
             </a>
           </div>
           <div class="col-lg-6 col-md-12 hero-photo" id="ph-ruby">
-            <img
-              src="pics/ruby-radwan-hypno-psychotherapist-1.png"
-              alt="Ruby Radwan"
-              class="img-fluid"
-              style="height: 80%"
-            />
-            <div class="name-job">
-              <h5>Ruby Radwan</h5>
-              <h6>Hypnotherapist</h6>
+            <div class="center-content">
+              <img
+                src="pics/ruby-radwan-hypno-psychotherapist-1.png"
+                alt="Ruby Radwan"
+                class="img-fluid"
+              />
+              <div class="name-job">
+                <h5>Ruby Radwan</h5>
+                <h6>Hypnotherapist</h6>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-
+    <!-- How Section -->
     <section id="how">
       <div class="container">
         <div class="row">
@@ -137,7 +150,7 @@
             <h2 class="title-four">EXPLORATION</h2>
             <p class="para">
               You will be able to harness the power of your unconscious mind in
-              order to rid yourself of problems, doubts, insecurities.
+              order to rid yourself of problems, doubts and insecurities.
             </p>
           </div>
           <div class="col-md-4">
@@ -160,7 +173,7 @@
         </a>
       </div>
     </section>
-
+    <!-- About Section -->
     <section id="about" class="demo-wrap">
       <div class="container demo-content">
         <div class="line home-line"></div>
@@ -190,7 +203,7 @@
         </div>
       </div>
     </section>
-
+    <!-- What do I do -->
     <section id="action">
       <!-- Top part of this section -->
       <div class="row top">
@@ -238,7 +251,6 @@
         <div class="col-lg-2"></div>
       </div>
     </section>
-
     <!-- Contact Form -->
     <section id="contact" class="contact-back">
       <div class="container contact-back py-5">
@@ -251,6 +263,22 @@
           inquire, express your concerns, and determine whether I am the right
           therapist for you.
         </p>
+        <div id="success-message-container">
+          <div
+            id="success-message"
+            style="
+              text-align: center;
+              align-items: center;
+              justify-content: center;
+              padding: 5px 8px;
+              background-color: #c9a395;
+              color: #000;
+              display: none;
+              font-size: large;
+            "
+          ></div>
+        </div>
+
         <form id="contact-form" class="row" action="contact.php" method="POST">
           <div class="col-md-12 py-2">
             <label for="name" class="class-label">Full Name</label>
@@ -295,13 +323,20 @@
             ></textarea>
           </div>
           <div class="col-md-12 py-4 form-submit contact-btn">
-            <button type="submit" id="size-btn" class="btn contact-btn">
+            <button
+              type="submit"
+              value="Submit"
+              id="size-btn"
+              class="btn contact-btn"
+            >
               Submit
             </button>
           </div>
         </form>
+        <div id="success-message"></div>
       </div>
     </section>
+    <!-- Footer -->
     <section id="footer">
       <div class="container">
         <div class="row">
@@ -358,7 +393,7 @@
         </div>
       </div>
     </section>
-
+    <!-- Signature -->
     <section id="copy">
       <div class="container">
         <div class="row">

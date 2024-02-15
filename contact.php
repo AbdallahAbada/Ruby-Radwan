@@ -4,6 +4,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Validate and sanitize form inputs
     $name = filter_var($_POST["name"], FILTER_SANITIZE_STRING);
     $email = filter_var($_POST["email"], FILTER_SANITIZE_EMAIL);
+    $phone = filter_var($_POST["phone"], FILTER_SANITIZE_STRING);
     $message = filter_var($_POST["message"], FILTER_SANITIZE_STRING);
 
     // Validate email
@@ -15,6 +16,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Your email address where you want to receive inquiries
     $to = "rubyradwantherapy@gmail.com";
+    // $to = "abdallah.abada.1993@gmail.com";
 
     // Email subject
     $subject = "New Inquiry from Website";
